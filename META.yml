@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                       Labyrinth-Plugin-Articles-Lyrics
-version:                    1.00
+version:                    1.01
 abstract:                   Lyrics plugin for the Labyrinth framework
 author:
   - Barbie <barbie@cpan.org>
@@ -25,7 +25,7 @@ build_requires:
 provides:
   Labyrinth::Plugin::Articles::Lyrics:
     file:     lib/Labyrinth/Plugin/Articles/Lyrics.pm
-    version:  1.00
+    version:  1.01
 
 no_index:
   directory:
@@ -42,4 +42,4 @@ resources:
 meta-spec:
    version:   1.4
    url:       http://module-build.sourceforge.net/META-spec-v1.4.html
-generated_by: Hand 1.0
+generated_by: The Hand of Barbie 1.0
