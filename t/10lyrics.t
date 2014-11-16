@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 use strict;
 
-use Data::Dumper;
+#use Data::Dumper;
 use Labyrinth::Test::Harness;
 use Test::More tests => 11;
 

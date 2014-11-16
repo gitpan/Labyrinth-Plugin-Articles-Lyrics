@@ -1,6 +1,6 @@
 {
     "name": "Labyrinth-Plugin-Articles-Lyrics",
-    "version": "1.01",
+    "version": "1.02",
     "abstract": "Lyrics plugin for the Labyrinth framework",
     "author": [
         "Barbie (BARBIE) <barbie@cpan.org>"
@@ -25,6 +25,7 @@
         "test" : {
             "requires": {
                 "IO::File": "0",
+                "Labyrinth::Test::Harness": "1.05",
                 "Test::More": "0.70"
             },
             "recommends": {
@@ -37,8 +38,8 @@
         "runtime" : {
             "requires" : {
               "perl": "5.006",
-              "Labyrinth": "5.20",
-              "Labyrinth::Plugin::Core": "5.13"
+              "Labyrinth": "5.27",
+              "Labyrinth::Plugin::Core": "5.18"
             }
         }
     },
@@ -46,7 +47,7 @@
     "provides": {
         "Labyrinth::Plugin::Articles::Lyrics": {
             "file": "lib/Labyrinth/Plugin/Articles/Lyrics.pm",
-            "version": "1.01"
+            "version": "1.02"
         }
     },
     "no_index": {
